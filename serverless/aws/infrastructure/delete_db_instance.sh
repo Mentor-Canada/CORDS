@@ -1,0 +1,1 @@
+terraform destroy -target aws_db_instance.postgres-db

@@ -1,0 +1,1 @@
+terraform apply --target aws_db_instance.postgres-db
