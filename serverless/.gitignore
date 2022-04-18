@@ -1,0 +1,11 @@
+*.zip
+dependencies
+.terraform/
+.terraform*
+terraform.tfstate
+terraform.tfstate.backup
+credentials.tf
+terraform.tfvars
+.serverless
+serverless.yml
+environment_vars.py
