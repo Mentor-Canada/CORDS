@@ -10,4 +10,4 @@ rm -f model.tar.gz
 cd ..
 chmod -R 777 model-directory
 
-sudo apt install postgresql-server
+#sudo apt install postgresql-server
