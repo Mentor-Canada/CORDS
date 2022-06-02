@@ -1,1 +1,1 @@
-source scripts/.env.sh && uvicorn main:app --workers 1 --port 8000
+source scripts/.env.sh && gunicorn main:app --bind 0.0.0.0:8080 -w 1 -k uvicorn.workers.UvicornWorker
