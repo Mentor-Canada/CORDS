@@ -9,3 +9,4 @@ terraform.tfvars
 .serverless
 serverless.yml
 environment_vars.py
+credentials.json
